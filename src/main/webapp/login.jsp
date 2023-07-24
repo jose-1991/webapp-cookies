@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
 </head>
 <body>
 <h1>Iniciar Sesion</h1>
-<form action="/webapp-headers/login" method="post">
+<form action="/webapp-cookie/login" method="post">
   <div>
     <label for="username">Username</label>
     <div>
@@ -16,7 +17,7 @@
   <div>
     <label for="password">Password</label>
     <div>
-      <input type="text" name="password" id="password">
+      <input type="password" name="password" id="password">
     </div>
   </div>
   <div>
